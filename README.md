@@ -44,9 +44,6 @@ Borrow out = A'Bin + A'B + BBin
  3. Generate the RTL schematic and save the logic diagram.   
  4. Create nodes for inputs and outputs to generate the timing diagram.   
  5. For different input combinations generate the timing diagram.   
-
-
-
 **Program:**
 
 module fa(a,b,cin,sum,carry);    
@@ -64,23 +61,12 @@ assign borrow= ( ( ~a & b)| ( bin & (~(a ^ b ))));
 endmodule    
 
 **RTL Schematic**
-<img width="1669" height="719" alt="Screenshot 2025-12-03 145735" src="https://github.com/user-attachments/assets/c7f6a537-f342-48f0-9de6-27112eed0bb7" />
-
-<img width="1563" height="721" alt="Screenshot 2025-12-03 145751" src="https://github.com/user-attachments/assets/b487edca-1943-4574-8f4c-858bd6dd8dee" />
-
-
-
+<img width="1390" height="790" alt="Screenshot 2025-12-18 190223" src="https://github.com/user-attachments/assets/a8ace60b-209f-4c7d-b17f-b35a319190a2" />
+<img width="826" height="416" alt="Screenshot 2025-12-18 190305" src="https://github.com/user-attachments/assets/4795a4d2-42f1-45e1-a16c-9ec3a459d036" />
 
 **Output Timing Waveform**
-<img width="1495" height="776" alt="Screenshot 2025-12-03 145815" src="https://github.com/user-attachments/assets/da8aea5f-eb20-4be7-9eeb-4c9e114c75f6" />
-
-<img width="1476" height="763" alt="Screenshot 2025-12-03 145836" src="https://github.com/user-attachments/assets/97cd2c30-32ba-45a2-acda-54fe93c7e5a4" />
-
-
+<img width="1039" height="522" alt="Screenshot 2025-12-18 190250" src="https://github.com/user-attachments/assets/3041cdc5-bfa6-4d33-ba6a-918624398861" />
+<img width="1036" height="460" alt="Screenshot 2025-12-18 190327" src="https://github.com/user-attachments/assets/e59b1744-5eff-406a-adba-3c9f3c4ffda9" />
 
 **Result:**
-
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
-
-
-

@@ -43,9 +43,10 @@ Borrow out = A'Bin + A'B + BBin
  2. Compile and run the program.   
  3. Generate the RTL schematic and save the logic diagram.   
  4. Create nodes for inputs and outputs to generate the timing diagram.   
- 5. For different input combinations generate the timing diagram.   
-**Program:**
+ 5. For different input combinations generate the timing diagram.
 
+  
+**Program:**
 module exp3(a,b,cin,sum,carry);    
 input a,b,cin;    
 output sum,carry;    

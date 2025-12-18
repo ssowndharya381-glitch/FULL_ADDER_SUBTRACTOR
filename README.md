@@ -46,8 +46,8 @@ Borrow out = A'Bin + A'B + BBin
  5. For different input combinations generate the timing diagram.
 
   
-**Program:**
-module exp3(a,b,cin,sum,carry);    
+**Program:**   
+module exp3(a,b,cin,sum,carry);        
 input a,b,cin;    
 output sum,carry;    
 assign sum=( (a ^ b)^cin);    
